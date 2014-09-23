@@ -4,6 +4,8 @@ header{
   padding: 1px 20px;
   text-align: center;
   position: relative;
+  background: transparent url('../images/water.svg') no-repeat top center;
+  background-size: 100% auto;
 
   @media screen and (max-width: 1600px){ background-size: 100% auto; margin-bottom: 12px; }
 

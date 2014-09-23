@@ -73,6 +73,8 @@ a:hover, a:focus {
 /* line 1, ../sass/modules/_body.scss */
 body {
   background: #fef0c4;
+  margin: 0;
+  padding: 0;
 }
 
 /* line 1, ../sass/modules/_banner.scss */
@@ -82,6 +84,8 @@ header {
   padding: 1px 20px;
   text-align: center;
   position: relative;
+  background: transparent url("../images/water.svg") no-repeat top center;
+  background-size: 100% auto;
 }
 @media screen and (max-width: 1600px) {
   /* line 1, ../sass/modules/_banner.scss */
@@ -90,7 +94,7 @@ header {
     margin-bottom: 12px;
   }
 }
-/* line 10, ../sass/modules/_banner.scss */
+/* line 12, ../sass/modules/_banner.scss */
 header a.github {
   position: absolute;
   top: 0;
@@ -98,12 +102,12 @@ header a.github {
   border: none;
 }
 @media screen and (max-width: 800px) {
-  /* line 10, ../sass/modules/_banner.scss */
+  /* line 12, ../sass/modules/_banner.scss */
   header a.github {
     display: none;
   }
 }
-/* line 16, ../sass/modules/_banner.scss */
+/* line 18, ../sass/modules/_banner.scss */
 header h1 {
   display: block;
   font-weight: bold;
@@ -112,12 +116,12 @@ header h1 {
   text-align: center;
 }
 @media screen and (max-width: 500px) {
-  /* line 16, ../sass/modules/_banner.scss */
+  /* line 18, ../sass/modules/_banner.scss */
   header h1 {
     padding: 8% 0% 5% 0%;
   }
 }
-/* line 25, ../sass/modules/_banner.scss */
+/* line 27, ../sass/modules/_banner.scss */
 header h1 a {
   color: #a00;
   display: block;
@@ -131,41 +135,41 @@ header h1 a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 900px) {
-  /* line 25, ../sass/modules/_banner.scss */
+  /* line 27, ../sass/modules/_banner.scss */
   header h1 a {
     font-size: 76px;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 25, ../sass/modules/_banner.scss */
+  /* line 27, ../sass/modules/_banner.scss */
   header h1 a {
     font-size: 68px;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 25, ../sass/modules/_banner.scss */
+  /* line 27, ../sass/modules/_banner.scss */
   header h1 a {
     font-size: 54px;
     font-weight: normal;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 25, ../sass/modules/_banner.scss */
+  /* line 27, ../sass/modules/_banner.scss */
   header h1 a {
     font-size: 47px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 25, ../sass/modules/_banner.scss */
+  /* line 27, ../sass/modules/_banner.scss */
   header h1 a {
     font-size: 34px;
   }
 }
-/* line 45, ../sass/modules/_banner.scss */
+/* line 47, ../sass/modules/_banner.scss */
 header h1 a span {
   display: block;
 }
-/* line 47, ../sass/modules/_banner.scss */
+/* line 49, ../sass/modules/_banner.scss */
 header h1 a em {
   display: block;
   font-size: 24px;
@@ -173,18 +177,18 @@ header h1 a em {
   font-family: "proxima nova soft", "proxima-nova-soft", "helvetica neue", helvetica, arial, sans-serif;
   font-style: normal;
 }
-/* line 55, ../sass/modules/_banner.scss */
+/* line 57, ../sass/modules/_banner.scss */
 header h1 a:hover {
   color: #a00;
   border: none;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 63, ../sass/modules/_banner.scss */
+/* line 65, ../sass/modules/_banner.scss */
 header h3 a {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 700;
 }
-/* line 64, ../sass/modules/_banner.scss */
+/* line 66, ../sass/modules/_banner.scss */
 header h3 a:hover {
   color: #a00;
 }
