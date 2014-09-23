@@ -69,3 +69,115 @@ a:hover, a:focus {
   color: #950000;
   border-bottom: dotted 1px;
 }
+
+/* line 1, ../sass/modules/_body.scss */
+body {
+  background: #FEF0C4;
+}
+
+/* line 1, ../sass/modules/_banner.scss */
+header {
+  display: block;
+  margin: 0 0 24px;
+  padding: 1px 20px;
+  background: transparent url("../images/water.png") no-repeat left top;
+  text-align: center;
+  position: relative;
+}
+@media screen and (max-width: 1600px) {
+  /* line 1, ../sass/modules/_banner.scss */
+  header {
+    background-size: 100% auto;
+    margin-bottom: 12px;
+  }
+}
+/* line 11, ../sass/modules/_banner.scss */
+header a.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  /* line 11, ../sass/modules/_banner.scss */
+  header a.github {
+    display: none;
+  }
+}
+/* line 17, ../sass/modules/_banner.scss */
+header h1 {
+  display: block;
+  font-weight: bold;
+  padding: 5% 0%;
+  margin: 20px 0;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  /* line 17, ../sass/modules/_banner.scss */
+  header h1 {
+    padding: 8% 0% 5% 0%;
+  }
+}
+/* line 26, ../sass/modules/_banner.scss */
+header h1 a {
+  color: #a00;
+  display: block;
+  font-size: 90px;
+  line-height: 0.9em;
+  padding-top: 150px;
+  border: none;
+  font-family: "bello-pro", georgia, serif;
+  background: transparent url("../images/logo.svg") no-repeat top center;
+  background-size: 140px auto;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 900px) {
+  /* line 26, ../sass/modules/_banner.scss */
+  header h1 a {
+    font-size: 76px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 26, ../sass/modules/_banner.scss */
+  header h1 a {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 26, ../sass/modules/_banner.scss */
+  header h1 a {
+    font-size: 54px;
+    font-weight: normal;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 26, ../sass/modules/_banner.scss */
+  header h1 a {
+    font-size: 47px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 26, ../sass/modules/_banner.scss */
+  header h1 a {
+    font-size: 34px;
+  }
+}
+/* line 46, ../sass/modules/_banner.scss */
+header h1 a span {
+  display: block;
+}
+/* line 48, ../sass/modules/_banner.scss */
+header h1 a:hover {
+  color: #a00;
+  border: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+/* line 56, ../sass/modules/_banner.scss */
+header h3 a {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+}
+/* line 57, ../sass/modules/_banner.scss */
+header h3 a:hover {
+  color: #a00;
+}
